@@ -28,7 +28,3 @@ This repo shows  Restricted Boltzmann Machine (RBM) experiments using only NumPy
    - `03_experiment_denoising.ipynb`
    - `04_experiment_sampling_ablation.ipynb`
 
-## Notes
-- Data: uses `sklearn.datasets.load_digits` (values 0–16) scaled to [0,1], upsampled to 14×14 via simple zoom, then binarized at 0.5.
-- Models are saved under `models/` as `.npz` files.
-- Code aims to be clear and is not optimized for speed.
