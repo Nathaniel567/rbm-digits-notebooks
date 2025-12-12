@@ -4,12 +4,12 @@ This repo shows  Restricted Boltzmann Machine (RBM) experiments using only NumPy
 
 ## Contents
 - `rbm_utils.py` — small helper module for loading data, CD-1 training, Gibbs steps, corruption, Hamming error, and save/load.
-- `01_experiment_baseline.ipynb` — trains a 196×50 RBM, plots train/test error, and shows original vs reconstructed digits; saves `models/rbm_digits_50.npz`.
+- `01_experiment_baseline.ipynb` — trains a 196×50 RBM, plots train/test error, and shows original vs reconstructed digits, also saves `models/rbm_digits_50.npz`.
 - `02_experiment_features.ipynb` — visualizes hidden-unit weight vectors as 14×14 filters from the saved model.
 - `03_experiment_denoising.ipynb` — denoises corrupted digits at several noise levels and plots error vs noise.
 - `04_experiment_sampling_ablation.ipynb` — samples from the trained RBM and compares hidden sizes 20/50/100 with train/test curves and tiny sample grids.
 - `requirements.txt` — minimal Python dependencies.
-- `docs/MATH385_Final_Report.pdf` — final project report.
+- `docs/MATH385_Final_Report.pdf` — final project report, contains all theoretical and experimental results obtained in this repository. 
 
 ## Quickstart
 1. Install deps (Python 3.12+):
@@ -23,7 +23,7 @@ This repo shows  Restricted Boltzmann Machine (RBM) experiments using only NumPy
    jupyter notebook
    ```
 3. Run notebooks in order:
-   - `01_experiment_baseline.ipynb` (trains and saves `models/rbm_digits_50.npz`)
+   - `01_experiment_baseline.ipynb` 
    - `02_experiment_features.ipynb`
    - `03_experiment_denoising.ipynb`
    - `04_experiment_sampling_ablation.ipynb`

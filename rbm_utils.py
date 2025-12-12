@@ -1,6 +1,6 @@
 """
 Utility functions for a simple Bernoulli RBM using NumPy and scikit-learn's
-built-in digits dataset. Everything is kept simple and commented so it is easy
+built-in digits dataset. 
 to follow.
 """
 
@@ -31,7 +31,7 @@ def load_digits_data(target_size=(14, 14), threshold=0.5, test_size=0.2, seed=0)
     # scale original pixel values (0-16) to [0,1]
     images = images / 16.0
 
-    # resize to target_size if needed (uses simple scipy zoom)
+    # resize to target_size if needed
     if target_size != (8, 8):
         row_factor = target_size[0] / images.shape[1]
         col_factor = target_size[1] / images.shape[2]
