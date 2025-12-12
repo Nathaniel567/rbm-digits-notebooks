@@ -9,6 +9,7 @@ This repo shows  Restricted Boltzmann Machine (RBM) experiments using only NumPy
 - `03_experiment_denoising.ipynb` — denoises corrupted digits at several noise levels and plots error vs noise.
 - `04_experiment_sampling_ablation.ipynb` — samples from the trained RBM and compares hidden sizes 20/50/100 with train/test curves and tiny sample grids.
 - `requirements.txt` — minimal Python dependencies.
+- `docs/MATH385_Final_Report.pdf` — final project report.
 
 ## Quickstart
 1. Install deps (Python 3.12+):
