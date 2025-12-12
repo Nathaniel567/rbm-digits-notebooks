@@ -1,7 +1,6 @@
 """
 Utility functions for a simple Bernoulli RBM using NumPy and scikit-learn's
 built-in digits dataset. 
-to follow.
 """
 
 import os
